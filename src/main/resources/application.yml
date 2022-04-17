@@ -1,0 +1,7 @@
+server:
+  port: 8875
+spring:
+  application:
+    name: auction
+  config:
+    import: optional:configserver:http://config-user:config-password@localhost:8869/
